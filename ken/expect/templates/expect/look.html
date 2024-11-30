@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>さいたま市の日射量予報</title>
+</head>
+<body>
+    <h1>さいたま市の本日の日射量予報</h1>
+    
+    <img src="{{ image_url }}" alt="日射量予報グラフ">
+    <div>{{ data|safe }}</div>
+    <div>{{ kasu|safe }}</div>
+</body>
+</html>
